@@ -1435,10 +1435,12 @@ a {
 }
 .cid-tR52ptGjjk .mbr-section-title {
   color: #fafafa;
+  text-align: left;
 }
 .cid-tR52ptGjjk .mbr-text,
 .cid-tR52ptGjjk .mbr-section-btn {
   color: #fafafa;
+  text-align: center;
 }
 .cid-t4BGB9TMmA {
   padding-top: 2rem;
@@ -1457,7 +1459,7 @@ a {
 }
 .cid-tRXrUaV92Q {
   padding-top: 30px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   background-color: #13331c;
 }
 .cid-tRXrUaV92Q .row {
@@ -1511,6 +1513,15 @@ a {
 }
 .cid-tR5fxjAvPK .google-map[data-state="loading"] [data-state-details] {
   display: none;
+}
+.cid-tSzIDD5QuD {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #13331c;
+  overflow: hidden;
+}
+.cid-tSzIDD5QuD .media-container-row .mbr-text {
+  color: #426f4f;
 }
 .cid-taL9K0iZqw .float {
   position: fixed;
