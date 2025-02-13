@@ -60,7 +60,7 @@
     "gdpr": false,
     "witsec-white-label": true,
     "publishChangesOnly": true,
-    "uniqCompNum": 5,
+    "uniqCompNum": 6,
     "versionPublish": "5.9.25",
     "screenshot": "screenshot.png"
   },
@@ -841,6 +841,71 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "background-color": "@bgColor",
+            "input": {
+              "padding": "1.2rem 1.5rem",
+              "border": "none !important",
+              "height": "100%",
+              "&:hover": {
+                "border": "none !important"
+              }
+            },
+            ".btn": {
+              "height": "100%",
+              "margin": "auto",
+              "@media (min-width: 768px)": {
+                "margin-left": "0.625rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              "margin-bottom": "1.2rem",
+              "width": "fit-content",
+              ".btn": {
+                "width": "auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              },
+              ".content-wrapper": {
+                "flex-direction": "column-reverse"
+              }
+            },
+            ".justify-content-center": {
+              "align-items": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffd7ef"
+            }
+          },
+          "_name": "header02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header2\" group=\"Headers\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\" plugins=\"formstyler, datepicker\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n    <header>Background</header>\n    <input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#260a30\" selected=\"\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row content-wrapper justify-content-center\">\n      <div mbr-form=\"\" class=\"col-lg-8 mbr-form\">\n        <div class=\"\">\n          <h1 class=\"mbr-section-title mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n            <b>Sign up and enjoy discounted offers</b>\n          </h1>\n        </div>\n\n        <div class=\"text-wrapper align-left\">\n          <form action=\"\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"\">\n            <div class=\"row\">\n              <div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">\n                Thanks for filling out the form!\n              </div>\n              <div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">\n                Oops...! some problem!\n              </div>\n            </div>\n            <div class=\"dragArea row\">\n              <div data-for=\"email\" class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\n                <input type=\"email\" name=\"email\" placeholder=\"test@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"\">\n              </div>\n              <div class=\"col-auto mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n                <a type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 btn btn-secondary\" data-app-placeholder=\"Type Text\">Submit</a>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n",
+          "_cid": "uCIyjUO1I0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header02-5"
         },
         {
           "alias": false,
