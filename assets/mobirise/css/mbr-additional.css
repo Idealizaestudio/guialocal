@@ -1389,3 +1389,29 @@ a {
 .cid-uCIKQpeqRs .mbr-section-btn {
   text-align: center;
 }
+.cid-uCILDtae9V {
+  padding-top: 0rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/bg7-1920x1080.webp");
+}
+.cid-uCILDtae9V .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-uCILDtae9V .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-uCILDtae9V .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-uCILDtae9V .mbr-text,
+.cid-uCILDtae9V .mbr-section-btn {
+  color: #48a4b7;
+  text-align: center;
+}
+.cid-uCILDtae9V .mbr-section-title {
+  color: #fafafa;
+}
