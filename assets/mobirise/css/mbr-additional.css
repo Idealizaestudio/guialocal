@@ -915,7 +915,7 @@ a {
   transition: 0.3s all !important;
   min-width: auto;
   background: #f7f7f7;
-  background: rgba(247, 247, 247, 0) !important;
+  background: rgba(247, 247, 247, 0.1) !important;
   border-radius: 4px !important;
 }
 .cid-uCI3Ps9ATq .nav-item:focus,
@@ -1158,7 +1158,8 @@ a {
 }
 .cid-uCI3Ps9ATq .navbar-dropdown {
   padding: 0;
-  background: rgba(247, 247, 247, 0) !important;
+  background: rgba(247, 247, 247, 0.1) !important;
+  position: fixed;
 }
 .cid-uCI3Ps9ATq .opacityScroll {
   background: #f7f7f7 !important;
@@ -1248,8 +1249,8 @@ a {
     border-radius: 1.5rem;
     background: #f7f7f7;
     opacity: 1;
-    border-color: rgba(247, 247, 247, 0) !important;
-    background: rgba(247, 247, 247, 0) !important;
+    border-color: rgba(247, 247, 247, 0.1) !important;
+    background: rgba(247, 247, 247, 0.1) !important;
     backdrop-filter: blur(8px);
     border-radius: 4px !important;
   }
