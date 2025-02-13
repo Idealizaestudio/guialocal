@@ -62,7 +62,8 @@
     "publishChangesOnly": true,
     "uniqCompNum": 10,
     "versionPublish": "5.9.25",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishEditFolder": true
   },
   "pages": {
     "index.html": {
