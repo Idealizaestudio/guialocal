@@ -1159,6 +1159,7 @@ a {
 .cid-uCI3Ps9ATq .navbar-dropdown {
   padding: 0;
   background: rgba(247, 247, 247, 0) !important;
+  position: fixed;
 }
 .cid-uCI3Ps9ATq .opacityScroll {
   background: #f7f7f7 !important;
