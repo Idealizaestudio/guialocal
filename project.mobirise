@@ -61,7 +61,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "uniqCompNum": 29,
     "versionPublish": "5.9.25",
     "screenshot": "screenshot.png",
