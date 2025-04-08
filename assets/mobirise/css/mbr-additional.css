@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 2rem !important;
+  border-radius: 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -886,7 +886,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-uHM180ad71 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 6.5rem);
+    max-height: calc(98.5vh - 6.3rem);
   }
 }
 .cid-uHM180ad71 .navbar.collapsed .dropdown-menu .dropdown-submenu {
